@@ -6,7 +6,7 @@ function App() {
     <div className="container">
       
       <div className='left--side'>
-
+      
       </div>
 
       <div className='right--side'>
@@ -19,7 +19,7 @@ function App() {
 
       </p>
  <h1 className='price__now'> $149.99   <span className='price__before'> <small>$169.99</small></span>  </h1> 
- <a href='#' className='btn'> <span> <img src='./icon-cart.svg'  /> </span> Add to Cart </a>
+ <button className='btn'> <span> <img src='images/icon-cart.svg'  /> </span>  Add to Cart </button>
       </div>
 
     </div>
