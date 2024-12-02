@@ -6,8 +6,61 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+*, *::before, *::after{
+  box-sizing: border-box;
+}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html, body{
+  font-size: 16px;
+  background-color: #f2e5d8;
+}
+
+h1{
+  font-size: 2.1rem;
+}
+
+ 
+.container{
+  width: 50vw;
+  margin: 0 auto; 
+  padding: 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 500px;
+ 
+  
+}
+
+.left--side{
+background: url(../public/images/image-product-desktop.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+.right--side{
+background-color: #fff;
+padding: 2em;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+.right--side h1{
+  font-family: 'Fraunces', sans-serif;
+ 
+}
+.right--side p{
+  font-family: 'Montserrat', sans-serif;
+  color: #5d5f5a;
+}
+.price__now{
+  color: #466c53;
+}
+.price__before{
+  text-decoration: line-through;
+  color: #5d5f5a;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.btn{
+  
 }
