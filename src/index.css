@@ -29,15 +29,16 @@ h1{
   .container{
     grid-template-columns: 1fr !important;
     grid-template-rows: 1fr 1fr !important;
-    width: 100% !important;
+    width: 90% !important;
+    margin: 2rem auto !important;
     height: 100vh !important;
   }
   .left--side{
     background: url(../public/images/image-product-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
      
     height: 100% !important;
     }
