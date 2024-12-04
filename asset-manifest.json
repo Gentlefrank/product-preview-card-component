@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Gentlefrank/product-preview-card-component.git/static/css/main.95592114.css",
-    "main.js": "/Gentlefrank/product-preview-card-component.git/static/js/main.e95a7421.js",
-    "static/js/453.a482d8e2.chunk.js": "/Gentlefrank/product-preview-card-component.git/static/js/453.a482d8e2.chunk.js",
-    "index.html": "/Gentlefrank/product-preview-card-component.git/index.html",
-    "main.95592114.css.map": "/Gentlefrank/product-preview-card-component.git/static/css/main.95592114.css.map",
-    "main.e95a7421.js.map": "/Gentlefrank/product-preview-card-component.git/static/js/main.e95a7421.js.map",
-    "453.a482d8e2.chunk.js.map": "/Gentlefrank/product-preview-card-component.git/static/js/453.a482d8e2.chunk.js.map"
+    "main.css": "/Gentlefrank/product-preview-card-component/static/css/main.95592114.css",
+    "main.js": "/Gentlefrank/product-preview-card-component/static/js/main.5a01689a.js",
+    "static/js/453.a482d8e2.chunk.js": "/Gentlefrank/product-preview-card-component/static/js/453.a482d8e2.chunk.js",
+    "index.html": "/Gentlefrank/product-preview-card-component/index.html",
+    "main.95592114.css.map": "/Gentlefrank/product-preview-card-component/static/css/main.95592114.css.map",
+    "main.5a01689a.js.map": "/Gentlefrank/product-preview-card-component/static/js/main.5a01689a.js.map",
+    "453.a482d8e2.chunk.js.map": "/Gentlefrank/product-preview-card-component/static/js/453.a482d8e2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.95592114.css",
-    "static/js/main.e95a7421.js"
+    "static/js/main.5a01689a.js"
   ]
 }
