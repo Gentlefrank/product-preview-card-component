@@ -12,74 +12,47 @@ body {
 
 
 html, body{
-  font-size: 16px;
+  font-size: 14px;
   background-color: #f2e5d8;
  
+  margin: 0;
   height: 100vh;
+   
 }
 
 h1{
   font-size: 2.1rem;
 }
 
-@media screen and (max-width: 768px) {
-  html, body{
-    font-size: clamp(1rem, 0.8rem + 1vw, 2rem);
-  }
-  .container{
-    grid-template-columns: 1fr !important;
-    grid-template-rows: 1fr 1fr !important;
-    width: 90% !important;
-    margin: 2rem auto !important;
-    height: 100vh !important;
-  }
-  .left--side{
-    background: url(../public/images/image-product-mobile.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-     
-    height: 100% !important;
-    }
-  .right--side{
-    height: 100% !important;
-  }
-}
- 
 .container{
+ width: 50vw;
+ height: 50vh;
+ margin: 25vh auto;
+ display: grid;
+ grid-template-columns: 1fr  1fr;
  
-  height: 100vh;
-  margin: 0 auto; 
-  width: 50%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 5fr;
-  
-  justify-content: center;
-  align-items: center;
-  max-width: 900px;
+ max-height: 50vh;
 }
 
-.left--side{
- 
-background: url(../public/images/image-product-desktop.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center center;
-border-top-left-radius: 10px;
-border-bottom-left-radius: 10px;
-width: 100%;
-height: 70vh;
-max-height: 80vh;
+.left--side {
+ width: 100%;
+ overflow: hidden;
+ border-top-left-radius: 15px;
+ border-bottom-left-radius: 15px;
+}
+.banner{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 .right--side{
-background-color: #fff;
-padding: 2em;
-border-top-right-radius: 10px;
-border-bottom-right-radius: 10px;
-height: 70vh;
-max-height: 80vh;
+  background-color: #fff;
+  width: 100%;
+  padding: 2em;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  
 }
 .right--side h1{
   font-family: 'Fraunces', sans-serif;
@@ -114,4 +87,32 @@ max-height: 80vh;
 .btn:hover{
   color: #fff ;
   background-color: #3c4e39;
+}
+
+
+@media screen and (max-width: 767px) {
+  body{
+    margin: 2em;
+    box-sizing: border-box;
+  }
+  
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+  
+    
+
+  }
+  .left--side{
+    height: 40vh;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .right--side{
+     
+  }
+  
 }

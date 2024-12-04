@@ -6,11 +6,20 @@ function App() {
     <div className="container">
       
       <div className='left--side'>
-      
+      <picture>
+      {/* Source for large screens */}
+      <source srcSet="/images/image-product-desktop.jpg" media="(min-width: 1024px)" />
+      {/* Source for medium screens */}
+      <source srcSet="/images/image-product-desktop.jpg" media="(min-width: 768px)" />
+      {/* Source for small screens */}
+      <source srcSet="/images/image-product-mobile.jpg" media="(max-width: 767px)" />
+      {/* Fallback image */}
+      <img src="/images/image-product-desktop.jpg" alt="parfum" className='banner' />
+    </picture>
       </div>
 
       <div className='right--side'>
-      <div></div>
+ 
       <p>PERFUME</p>
       <h1>Gabrielle Essense Eau De Perfume</h1>
       <p>
