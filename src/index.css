@@ -25,9 +25,9 @@ h1{
 }
 
 .container{
- width: 50vw;
- height: 50vh;
- margin: 25vh auto;
+ width: 40vw;
+ height: 40vh;
+ margin: 30vh auto;
  display: grid;
  grid-template-columns: 1fr  1fr;
  
