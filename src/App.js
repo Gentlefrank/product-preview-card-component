@@ -8,13 +8,14 @@ function App() {
       <div className='left--side'>
       <picture>
       {/* Source for large screens */}
-      <source srcSet="/images/image-product-desktop.jpg" media="(min-width: 1024px)" />
+      <source srcSet= {`${process.env.PUBLIC_URL}/images/image-product-desktop.jpg`} media="(min-width: 1024px)" />
       {/* Source for medium screens */}
-      <source srcSet="/images/image-product-desktop.jpg" media="(min-width: 768px)" />
+      <source srcSet= {`${process.env.PUBLIC_URL}/images/image-product-desktop.jpg`} media="(min-width: 768px)" />
       {/* Source for small screens */}
-      <source srcSet="/images/image-product-mobile.jpg" media="(max-width: 767px)" />
+      <source srcSet= {`${process.env.PUBLIC_URL}/images/image-product-mobile.jpg`} media="(max-width: 767px)" />
       {/* Fallback image */}
-      <img src="/images/image-product-desktop.jpg" alt="parfum" className='banner' />
+     
+      <img src= {`${process.env.PUBLIC_URL}/images/image-product-desktop.jpg`} alt="parfum" className='banner' />
     </picture>
       </div>
 
@@ -28,7 +29,7 @@ function App() {
 
       </p>
  <h1 className='price__now'> $149.99   <span className='price__before'> <small>$169.99</small></span>  </h1> 
- <button className='btn'> <span> <img src='images/icon-cart.svg'  /> </span>  Add to Cart </button>
+ <button className='btn'> <span> <img src={`${process.env.PUBLIC_URL}/images/icon-cart.svg`}  /> </span>  Add to Cart </button>
       </div>
 
     </div>

@@ -110,9 +110,11 @@ h1{
     height: 40vh;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    border-bottom-left-radius: 0;
   }
   .right--side{
-     
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
   }
   
 }
