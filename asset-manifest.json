@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/product-preview-card-component/static/css/main.6fbe27d3.css",
-    "main.js": "/product-preview-card-component/static/js/main.5921e1de.js",
-    "static/js/453.a482d8e2.chunk.js": "/product-preview-card-component/static/js/453.a482d8e2.chunk.js",
-    "static/media/image-product-desktop.jpg": "/product-preview-card-component/static/media/image-product-desktop.c96d43af17111fe78e96.jpg",
-    "static/media/image-product-mobile.jpg": "/product-preview-card-component/static/media/image-product-mobile.113818bc746dc8e64ffb.jpg",
-    "index.html": "/product-preview-card-component/index.html",
-    "main.6fbe27d3.css.map": "/product-preview-card-component/static/css/main.6fbe27d3.css.map",
-    "main.5921e1de.js.map": "/product-preview-card-component/static/js/main.5921e1de.js.map",
-    "453.a482d8e2.chunk.js.map": "/product-preview-card-component/static/js/453.a482d8e2.chunk.js.map"
+    "main.css": "/Gentlefrank/product-preview-card-component.git/static/css/main.95592114.css",
+    "main.js": "/Gentlefrank/product-preview-card-component.git/static/js/main.e95a7421.js",
+    "static/js/453.a482d8e2.chunk.js": "/Gentlefrank/product-preview-card-component.git/static/js/453.a482d8e2.chunk.js",
+    "index.html": "/Gentlefrank/product-preview-card-component.git/index.html",
+    "main.95592114.css.map": "/Gentlefrank/product-preview-card-component.git/static/css/main.95592114.css.map",
+    "main.e95a7421.js.map": "/Gentlefrank/product-preview-card-component.git/static/js/main.e95a7421.js.map",
+    "453.a482d8e2.chunk.js.map": "/Gentlefrank/product-preview-card-component.git/static/js/453.a482d8e2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fbe27d3.css",
-    "static/js/main.5921e1de.js"
+    "static/css/main.95592114.css",
+    "static/js/main.e95a7421.js"
   ]
 }
